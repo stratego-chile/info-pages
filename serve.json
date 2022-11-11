@@ -1,0 +1,19 @@
+{
+  "public": "docs",
+  "renderSingle": true,
+  "directoryListing": false,
+  "headers": [
+    {
+      "source": "**/*.@(md|mdx)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "unlisted": [
+    "**/.gitkeep"
+  ]
+}

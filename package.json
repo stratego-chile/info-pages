@@ -1,0 +1,21 @@
+{
+  "name": "info-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ssl:register": "coffee scripts/register-ssl.coffee",
+    "ssl:create-server": "serve --ssl-cert ./.ssl/ssl.cert --ssl-key ./.ssl/ssl.key -p 3001",
+    "start": "pnpm ssl:register && pnpm ssl:create-server"
+  },
+  "keywords": [],
+  "author": "KBeDevel",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.7.0",
+    "devcert": "^1.2.2",
+    "json5": "^2.2.1",
+    "serve": "^14.1.1"
+  }
+}

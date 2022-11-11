@@ -1,0 +1,4 @@
+{
+  certDir: '.ssl',
+  devDomainName: 'localhost',
+}
