@@ -1,4 +1,5 @@
 * text=auto
 * text encoding=utf-8
 * text eol=lf
-docs/* -linguist-documentation
+
+*.mdx linguist-detectable=true linguist-language=markdown
