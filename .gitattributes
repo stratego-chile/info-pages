@@ -1,4 +1,4 @@
 * text=auto
 * text encoding=utf-8
 * text eol=lf
-docs/** linguist-vendored
+docs -linguist-documentation
